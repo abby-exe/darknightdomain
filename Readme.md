@@ -5,7 +5,7 @@
 
 ---
 ### 🔹 Landing Page
-![Landing Page](https://github.com/abby-exe/darkknightdomain/blob/main/assets/img/landingpage.jpg?raw=true)
+![Landing Page](https://github.com/abby-exe/darknightdomain/blob/main/assets/img/landingpage.jpg?raw=true)
 
 ## 📖 Project Description
 
