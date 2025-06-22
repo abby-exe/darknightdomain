@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Batman Tribute Website</title>
+  <meta content="This webpage is dedicated to Batman" name="description">
+  <meta content="Batman, Dark Knight, Gotham City" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/batman-32.ico"> <!--Link to the favicon image-->
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Day
+  * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+  * Updated: May 04 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+<script>
+    // Disable right-click
+    document.addEventListener('contextmenu', event => event.preventDefault());
+
+    // Disable specific key combinations
+    document.onkeydown = function(e) {
+        if (e.keyCode == 123) {
+            return false; // F12 key
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+            return false; // Ctrl+Shift+I
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+            return false; // Ctrl+Shift+C
+        }
+        if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+            return false; // Ctrl+Shift+J
+        }
+        if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            return false; // Ctrl+U
+        }
+    }
+  </script>
+</head>
+
+<body class="index-page">
+  <header id="header" class="header fixed-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">Abbylash2002@gmail.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>011-7025-9918</span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">Dark Knight Domain</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="">Home</a></li>
+            <li><a href="#about">Wayne's Manor</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#portfolio">Cape & Camera</a></li>
+            <li><a href="#team">The Creator</a></li>
+            <li class="dropdown"><a href="login.php"><span>Store</span> 
+            <li><a href="#contact">Contact</a></li><br><br>
+            <li><a href="login.php" class="login-button"><strong>Login</strong></a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+  </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <img src="assets/img/batman-3.png" alt="" data-aos="fade-in">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="row justify-content-start">
+    <div class="col-lg-8">
+      <!-- Apply yellow-text class to change text color to yellow -->
+      <h2 class="yellow-text">A Tribute to the Dark Night</h2>
+      <p class="yellow-text">I am vengeance, I am the night, I am Batman!</p>
+      <!-- Apply yellow-text class to change text color of button to yellow -->
+      <a href="#about" class="btn-get-started yellow-text">Enter Wayne's Manor</a>
+    </div>
+  </div>
+</div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section" style="background-image: url('assets/img/batman4.jpg')">
+  <!-- Your content here -->>
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="">The Wayne's Manor<br></span><br><br>
+        <p><em>Within the walls of Wayne Manor, history whispers its secrets, and every room holds a story waiting to be told.</em></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/waynemanor1.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 order-2 order-lg-1 content" data-aos="fade-up" data-aos-delay="200">
+           <p class="strong">
+              Wayne Manor looms over Gotham, a gothic giant shrouded in mystery. Tourists snap photos of its immaculate gardens and imposing architecture, oblivious to the secrets it conceals. Within its very foundation lies another world – the Batcave. Accessed through a hidden passage, this cavernous space hums with a different kind of life. Batcomputer monitors flicker, casting an eerie glow on the arsenal of gadgets lining the walls. The Batmobile gleams under spotlights, a predator poised to strike. Here, Bruce Wayne sheds the billionaire persona, his steps echoing in the vastness as he transforms into the vengeance Gotham needs. The air itself crackles with determination, a testament to the tireless fight for justice waged beneath this very manor. Wayne Manor – a facade of wealth, a sanctuary of sorrow, and the heart of a legend.</p>
+            </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Cards Section -->
+    <section id="cards" class="cards section" style="background-image: url('assets/img/batman5.jpg')">
+
+  <div class="container">
+
+    <div class="row no-gutters">
+
+      <div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="100">
+
+        <span>01</span>
+        <h4 style="color: red;">Batman(1989):</h4>
+        <p>Tim Burton's iconic take on the character. Jack Nicholson chews the scenery as the Joker, pushing Bruce Wayne (Michael Keaton) to his limits. The film explores themes of duality, vengeance, and the power of fear.</p>
+      </div><div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="200">
+        <span>02</span>
+        <h4 style="color: red;">Batman Returns(1992):</h4>
+        <p>A darker sequel to the 1989 film, also directed by Burton. Michelle Pfeiffer shines as Catwoman, caught in a twisted web with Batman and the Penguin (Danny DeVito). The film delves deeper into Batman's psychology and the corruption plaguing Gotham.</p>
+      </div><div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="300">
+        <span>03</span>
+        <h4 style="color: red;">The Dark Knight(2008):</h4>
+        <p>Widely considered one of the greatest superhero films ever made. Christian Bale portrays a determined Batman facing the sadistic genius of The Joker (Heath Ledger) who throws Gotham into chaos. The film explores themes of morality, anarchy, and the cost of heroism.</p>
+      </div><div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="400">
+        <span>04</span>
+        <h4 style="color: red;">Batman Begins(2005):</h4>
+        <p>The first film in Christopher Nolan's acclaimed trilogy. It delves into Bruce Wayne's origins, showing how his parents' murder fuels his quest for justice. We see him trained by Ra's al Ghul (Liam Neeson) and witness his transformation into Batman.</p>
+      </div><div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="400">
+        <span>05</span>
+        <h4 style="color: red;">The Batman(2022):</h4>
+        <p>A recent reboot starring Robert Pattinson as a young, brooding Batman in his second year of fighting crime. Zoë Kravitz plays a captivating Catwoman. The film is a detective story with a noir atmosphere, as Batman investigates the Riddler's (Paul Dano) cryptic puzzles that expose Gotham's elite's corruption.</p>
+      </div><div class="col-lg-4 col-md-6 card" data-aos="fade-up" data-aos-delay="600">
+        <span>06</span>
+        <h4 style="color: red;">Batman Vs. Superman: Dawn of Justice(2016):</h4>
+        <p>While not solely focused on Batman, this film is a significant entry in the DC Extended Universe. Ben Affleck portrays a jaded and violent Batman who clashes with Superman (Henry Cavill) over their differing approaches to heroism.</p>
+      </div></div>
+
+  </div>
+
+</section>
+
+    </section><!-- /Cards Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container">
+
+        <div class="swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/bat1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bat2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bat3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bat4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bat5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bat6.png" class="img-fluid" alt=""></div>
+              </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section" style="background-image: url('assets/img/batman6.png')">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="">Skills</span><br><br>
+        <p><em>Cunning as a detective, fierce as a warrior, and relentless as a symbol. Batman's skills are not merely honed; they're the embodiment of fear and justice, a shadowed dance of intellect and strength.</em></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3 style="color:blue;">World's Greatest Detective</h3>
+              </a>
+              <p>He unravels mysteries with a keen mind and meticulous investigation.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3 style="color:blue;">Master of Gadgets</h3>
+              </a>
+              <p>His intellect fuels invention, crafting high-tech tools for any situation.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3 style="color:blue;">Fighting Fury</h3>
+              </a>
+              <p>Batman's a master of multiple martial arts, taking down foes with skill.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3 style="color:blue;">The Shadow Warrior</h3>
+              </a>
+              <p>Batman strikes fear with stealth and intimidation, vanishing before his enemies even know he's there.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3 style="color:blue;">Mastermind</h3>
+              </a>
+              <p>A genius strategist, Batman outwits his foes with cunning plans.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3 style="color:blue;">Peak Human</h3>
+              </a>
+              <p>Years of training make Batman a physical powerhouse, agile and strong.</p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section">
+
+      <img src="assets/img/batsignal.jpg" alt="Bat Signal Image">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3 style="color:red;"><strong>Call To Action</strong></h3>
+              <p><strong>Witnessing a crime? While we can't all be Batman, we can all play a part. Report crime and let the Dark Knight know you stand with him. Click the button below to learn more.</strong></p>
+              <a class="cta-btn" href="#">Call To Action</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section" style="background-image: url('assets/img/batman7.png')">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="">Cape & Camera</span><br><br>
+        <p><em>Witness the magic! Behind-the-scenes photos that bring the Batman universe to life.</em></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Batman Begins</li>
+            <li data-filter=".filter-product">The Dark Knight</li>
+            <li data-filter=".filter-branding">The Batman</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/batbeg1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Batman's Iconic Pose</h4>
+                <p><em>Batman perches on a gargoyle, a silent guardian surveying the city below.</em></p>
+                <a href="assets/img/masonry-portfolio/batbeg1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/dk1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Heath Ledger the Legend!</h4>
+                <p><em>Iconic scene of Batman confronting the Joker.</em></p>
+                <a href="assets/img/masonry-portfolio/dk1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/bt21.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>The Batcycleee!</h4>
+                <p><em>A high-performance machine, as dark and imposing as its rider. It tears through Gotham's streets, a symbol of justice on two wheels.</em></p>
+                <a href="assets/img/masonry-portfolio/bt21.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/batbeg2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Batman the Saviour!</h4>
+                <p><em>Dark knight rescues a child.</em></p>
+                <a href="assets/img/masonry-portfolio/batbeg2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/dk2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>The Crazy Harvey Dent!</h4>
+                <p>Rise of the Red Skull!</p>
+                <a href="assets/img/masonry-portfolio/dk2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/bt22.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bat in Red!!!</h4>
+                <p><em>One of the best scenes in Batman 2022.</em></p>
+                <a href="assets/img/masonry-portfolio/bt22.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/masonry-portfolio/batbeg3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Lights, Camera, Action!</h4>
+                <p><em>Christopher Nolan directs Christian Bale on the set of Batman Begins (2005).</em></p>
+                <a href="assets/img/masonry-portfolio/batbeg3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/masonry-portfolio/dk3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>The Joker's Chaos</h4>
+                <p><em>In a daring daylight heist, a masked gang throws Gotham into chaos as they target a prestigious mob bank.</em></p>
+                <a href="assets/img/masonry-portfolio/dk3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/masonry-portfolio/bt23.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>The Batsuit</h4>
+                <p><em>The Batsuit is more than clothing; it's an arsenal, a disguise, and a shield that allows Batman to protect Gotham.</em></p>
+                <a href="assets/img/masonry-portfolio/bt23.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+
+    <!--Creator Section-->
+    <section id="team" class="team section" style="background-image: url('assets/img/batman8.jpg')">
+  <div class="container">
+    <div class="text-center">
+      <div class="container section-title" data-aos="fade-up">
+      <span>The Creator</span><br><br>
+      <p><em>Made with Bat-tastic enthusiasm!</em></p>
+    </div>
+    <div class="member text-center">
+      <img src="assets/img/team/abby.jpeg" class="img-fluid rounded-circle mx-auto d-block" alt="Creator's Image">
+      <div class="member-content">
+        <h4 style="color:gold;">Abbhilash Simanchalam</h4>
+        <span><strong>Bachelor in Computer Science, Cybersecurity (Hons.)</strong></span>
+        <p>
+          <em>Thrilled to present my first official web project! This website is the culmination of my second-year Web Programming studies, and I can't wait to build more.</em>        
+        </p>
+        <div class="social d-flex justify-content-center">
+          <a href=""><i class="bi bi-twitter"></i></a>
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+          <a href=""><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!--/End Creator Section-->
+
+<!--Merchandise Section-->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section" style="background-image: url('assets/img/batman9.jpg')">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="">Contact</span><br><br>
+        <p><em>Have a question, comment, or project inquiry? We'd love to hear from you! Fill out the form below and we'll get back to you as soon as possible.</em></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt"></i>
+              <h3 style="color:red;">Address</h3>
+              <p>UNITEN, Kajang, 41000</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone"></i>
+              <h3 style="color:red;">Call Me</h3>
+              <p>011-7025-9918</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope"></i>
+              <h3 style="color:red;">Email Me</h3>
+              <p>Abbylash2002@gmail.com</p>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <div class="row gy-4 mt-1">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div><!-- End Google Maps -->
+
+          <div class="col-lg-6">
+  <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
+    <div class="row gy-4">
+
+      <div class="col-md-6">
+        <input type="text" name="name" class="form-control" placeholder="Your Name" required style="color: gold;">
+      </div>
+
+      <div class="col-md-6 ">
+        <input type="email" class="form-control" name="email" placeholder="Your Email" required style="color: gold;">
+      </div>
+
+      <div class="col-md-12">
+        <input type="text" class="form-control" name="subject" placeholder="Subject" required style="color: gold;">
+      </div>
+
+      <div class="col-md-12">
+        <textarea class="form-control" name="message" rows="6" placeholder="Message" required style="color: gold;"></textarea>
+      </div>
+
+      <div class="col-md-12 text-center">  <button type="submit" class="btn btn-primary">Send Message</button>
+      </div>
+    </div>
+  </form>
+</div>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer-about">
+            <a href="index.html" class="logo sitename">Dark Knight Domain</a>
+            <div class="footer-contact pt-3">
+              <p>Universiti Tenaga Nasional</p>
+              <p>Kajang, 41000</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>011-7025-9918</span></p>
+              <p><strong>Email:</strong> <span>Abbylash2002@gmail.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Wayne's Manor</a></li>
+            <li><a href="#">Cape & Camera</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Day</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
