@@ -4,6 +4,8 @@
 > Built as part of a university project at Universiti Tenaga Nasional (Apr 2024 – May 2024).
 
 ---
+### 🔹 Landing Page
+![Landing Page](https://github.com/abby-exe/darkknightdomain/blob/main/assets/img/landingpage.jpg?raw=true)
 
 ## 📖 Project Description
 
